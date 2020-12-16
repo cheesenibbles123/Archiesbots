@@ -14,13 +14,13 @@
 
 .bottomBar {
 	list-style-type: none;
-  	margin: 0;
-  	padding: 0;
-  	bottom: 0;
-  	position: fixed;
-  	width: 100%;
-  	height: 20px;
-  	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	bottom: 0;
+	position: fixed;
+	width: 100%;
+	height: 20px;
+	overflow: hidden;
 	font-size: 15px;
 	color: #FFFFFF;
 	background: #696969;
@@ -28,13 +28,13 @@
 
 .navList {
 	float: left;
-  	display: inline;
-  	color: white;
-  	text-align: center;
-  	padding: 14px 16px;
-  	text-decoration: none;
-  	border-right: 2px solid #000000;
-  	transition-duration: 0.2s;
+	display: inline;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	border-right: 2px solid #000000;
+	transition-duration: 0.2s;
 }
 
 .navList:hover {
@@ -42,11 +42,11 @@
 }
 
 .sail {
-  	border-radius: 25px;
-  	width: 512px;
-  	height: auto;
-  	margin-left: auto;
-  	margin-right: auto;
+	border-radius: 25px;
+	width: 512px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .sailSlot {
@@ -72,10 +72,62 @@
 	background: #FFFFFF;
 }
 
+.contentStart {
+  margin-top:65px;
+}
+
+.listNoBullet {
+  list-style-type: none;
+}
+
+.margin10 {
+  margin-left: 10px;
+  margin-top:10px;
+}
+
+.leftColumn {
+  width: 15%;
+  height: 100%;
+  background: red;
+  float:left;
+}
+
+.rightColumn {
+  width: 85%;
+  height: 100%;
+  background: pink;
+  float:right;
+}
+
+.defaultBorder {
+  border: 2px solid #000000;
+}
+
+.aboutLink {
+  color: black;
+  text-align:center;
+}
+
+.quickLinksBlock {
+  text-align: center;
+  padding: 5px;
+  border: 2px solid #000000;
+  border-radius: 10px
+}
+
+.quickLink {
+  padding: 5px;
+  width: 40%;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  background: #FFFFFF;
+  margin: 0;
+}
+
 a {
 	text-decoration: none;
 	display: block;
-  	color: white;
+  color: white;
 }
 
 body {
