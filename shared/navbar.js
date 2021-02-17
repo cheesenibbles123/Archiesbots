@@ -19,6 +19,10 @@ document.write(`\
          <a href="http://www.archiesbots.com/AlternionWiki/Normal-Sails.html">Secondary Sails</a>\
       </li>\
 \
+      <li class="navListL">\
+         <a href="http://www.archiesbots.com/AlternionWiki/Flags.html">Flags</a>\
+      </li>\
+\
       <li class="navListR">\
          <a href="http://www.archiesbots.com/index.html">Archies Bots</a>\
       </li>\
