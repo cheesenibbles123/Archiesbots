@@ -145,10 +145,15 @@
 	list-style-type: none;
 }
 
+.tableLayout {
+  border: 1px solid #000000;
+  background: #FFFFFF;
+}
+
 a {
 	text-decoration: none;
 	display: block;
-  color: white;
+  	color: white;
 }
 
 body {
