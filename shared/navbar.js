@@ -12,15 +12,15 @@ document.write(`\
       </li>\
 \
       <li class="navListL">\
-         <a href="http://www.archiesbots.com/AlternionWiki/Main-Sails.html">Main Sails</a>\
+         <a href="http://www.archiesbots.com/AlternionWiki/Skins/Main-Sails.html">Main Sails</a>\
       </li>\
 \
       <li class="navListL">\
-         <a href="http://www.archiesbots.com/AlternionWiki/Normal-Sails.html">Secondary Sails</a>\
+         <a href="http://www.archiesbots.com/AlternionWiki/Skins/Normal-Sails.html">Secondary Sails</a>\
       </li>\
 \
       <li class="navListL">\
-         <a href="http://www.archiesbots.com/AlternionWiki/Flags.html">Flags</a>\
+         <a href="http://www.archiesbots.com/AlternionWiki/Skins/Flags.html">Flags</a>\
       </li>\
 \
       <li class="navListR">\
