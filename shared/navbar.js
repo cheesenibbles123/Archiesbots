@@ -1,5 +1,4 @@
 document.write(`\
-\
    <ul class="navbar">\
 \
       <li class="navListL">\
