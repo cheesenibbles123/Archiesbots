@@ -109,36 +109,36 @@
 }
 
 .rightText {
-  padding: 5px;
-  background: white;
-  border: 2px solid #000000;
-  border-radius: 5px
+	padding: 5px;
+	background: white;
+	border: 2px solid #000000;
+	border-radius: 5px
 }
 
 .defaultBorder {
-  border: 2px solid #000000;
+    border: 2px solid #000000;
 }
 
 .aboutLink {
-  color: black;
-  text-align:center;
+    color: black;
+    text-align:center;
 }
 
 .quickLinksBlock {
-  color: white;
-  text-align: center;
-  padding: 5px;
-  border: 2px solid #000000;
-  border-radius: 10px
+	color: white;
+	text-align: center;
+	padding: 5px;
+	border: 2px solid #000000;
+	border-radius: 10px
 }
 
 .quickLink {
-  padding: 5px;
-  width: 40%;
-  border: 2px solid #000000;
-  border-radius: 10px;
-  background: #FFFFFF;
-  margin: 0;
+	padding: 5px;
+	width: 40%;
+	border: 2px solid #000000;
+	border-radius: 10px;
+	background: #FFFFFF;
+	margin: 0;
 }
 
 .listNoBulletPoint {
