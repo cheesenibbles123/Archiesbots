@@ -56,10 +56,6 @@
 	margin:0;
 }
 
-.mainHome:hover {
-	background: #696969;
-}
-
 .mainHome {
 	display: none;
 	background: inherit;
@@ -70,6 +66,7 @@
 	list-style-type: none;
 	padding: 0;
 	width: 165.25px;
+	background: #696969;
 }
 
 .mainHomeList {
