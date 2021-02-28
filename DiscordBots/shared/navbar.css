@@ -26,6 +26,32 @@
 	background: #696969;
 }
 
+.navBtn:hover, .navBtn:hover, .mainHomeList:hover {
+	background: #111;
+}
+
+.navBtn {
+	padding: 14px 16px;
+	margin:0;
+}
+
+.mainHome {
+	display: none;
+	background: #696969;
+	position: absolute;
+	width: inherit;
+	text-align: inherit;
+	text-decoration: none;
+	list-style-type: none;
+	padding: 0;
+	width: 165.25px;
+	background: #696969;
+}
+
+.mainHomeList {
+	border-top: 2px solid #000000;
+}
+
 .navListL {
 	float: left;
 	display: inline;
@@ -45,30 +71,4 @@
 	text-decoration: none;
 	border-right: 2px solid #000000;
 	transition-duration: 0.2s;
-}
-
-.navBtn:hover, .navBtn:hover, .mainHomeList:hover {
-	background: #111;
-}
-
-.navBtn {
-	padding: 14px 16px;
-	margin:0;
-}
-
-.mainHome {
-	display: none;
-	background: inherit;
-	position: absolute;
-	width: inherit;
-	text-align: inherit;
-	text-decoration: none;
-	list-style-type: none;
-	padding: 0;
-	width: 165.25px;
-	background: #696969;
-}
-
-.mainHomeList {
-	border-top: 2px solid #000000;
 }

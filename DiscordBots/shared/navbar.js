@@ -40,6 +40,9 @@ document.write(`
 				<li class="mainHomeList">
 					<a href="http://www.archiesbots.com/DiscordBots/Oliverbot/commandUsage.php">Command Usage</a>
 				</li>
+				<li class="mainHomeList">
+					<a href="http://www.archiesbots.com/DiscordBots/Oliverbot/Economy.php">Economy</a>
+				</li>
 			</ul>
 		</li>
 
