@@ -26,6 +26,35 @@
 	background: #696969;
 }
 
+.navBtn:hover, .navBtn:hover, .mainHomeList:hover {
+	background: #111;
+}
+
+.navBtn {
+	padding: 14px 16px;
+	margin:0;
+}
+
+.mainHome:hover {
+	background: #696969;
+}
+
+.mainHome {
+	display: none;
+	background: inherit;
+	position: absolute;
+	width: inherit;
+	text-align: inherit;
+	text-decoration: none;
+	list-style-type: none;
+	padding: 0;
+	width: 165.25px;
+}
+
+.mainHomeList {
+	border-top: 2px solid #000000;
+}
+
 .navListL {
 	float: left;
 	display: inline;
