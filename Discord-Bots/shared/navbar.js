@@ -1,41 +1,60 @@
-document.write(`\
-\
-   <script>\
-      function myFunction(itemID) {\
-         document.getElementById(itemID).classList.toggle("show");\
-      }\
-   </script>\
-\
-   <ul class="navbar">\
-\
-      <li class="navListL">\
-         <button onclick="myFunction('mainHome')">Discord Bots</button>\
-         <div id="mainHome" style="visibility: hidden;">
-            <a href="http://www.archiesbots.com/AlternionWiki/Home.html">Alternion</a>
-            <a href="#">Discord Bots</a>
-         </div>
-      </li>\
-\
-      <li class="navListL">\
-         <a href="#">Home</a>\
-      </li>\
-\
-      <li class="navListL">\
-         <a href="#">Oliverbot</a>\
-      </li>\
-\
-      <li class="navListR">\
-         <a href="#">Archies Bots</a>\
-      </li>\
-\
-      <li class="navListR">\
-         <a href="#">FAQ</a>\
-      </li>\
-\
-      <li class="navListR">\
-         <a href="#">About</a>\
-      </li>\
-\
-   </ul>\
-\
+document.write(`
+
+	<script>
+
+		function myFunction(itemID) {
+			var doc = document.getElementById(itemID);
+			if (doc.style.display == 'block'){
+				doc.style.display = 'none';
+			}else{
+				doc.style.display = 'block';
+			}
+		};
+
+	</script>
+
+	<ul class="navbar">
+
+		<li class="navListL">
+			<a onClick="javascript:myFunction('mainHome');" class="navBtn">Discord Bots</a>\
+			<ul id="mainHome" class="mainHome">
+				<li class="mainHomeList">
+					<a href="http://www.archiesbots.com/AlternionWiki/Home.html">Alternion</a>
+				</li>
+				<li class="mainHomeList">
+					<a href="http://www.archiesbots.com/DiscordBots/Home.html">Discord Bots</a>
+				</li>
+			</ul>
+		</li>
+
+		<li class="navListL">
+			<a href="http://www.archiesbots.com/DiscordBots/Home.html" class="navBtn">Home</a>
+		</li>
+
+		<li class="navListL">
+			<a href="javascript:myFunction('oliverbot');" class="navBtn">Oliverbot</a>
+			<ul id="oliverbot" class="mainHome">
+				<li class="mainHomeList">
+					<a href="http://www.archiesbots.com/DiscordBots/Oliverbot/XP.php">XP</a>
+				</li>
+				<li class="mainHomeList">
+					<a href="http://www.archiesbots.com/DiscordBots/Oliverbot/commandUsage.php">Command Usage</a>
+				</li>
+			</ul>
+		</li>
+
+		<li class="navListR">
+			<a href="http://www.archiesbots.com/index.html" class="navBtn">Archies Bots</a>
+		</li>
+
+		<li class="navListR">
+			<a href="#" class="navBtn">FAQ</a>
+		</li>
+
+		<li class="navListR">
+			<a href="#" class="navBtn">About</a>
+		</li>
+
+	</ul>
+
 `);
