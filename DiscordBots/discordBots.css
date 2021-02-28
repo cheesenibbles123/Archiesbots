@@ -111,8 +111,10 @@
 }
 
 .contentsBacking {
-	background: #FFFFFF;
-	border: solid 1px #000000; 
+	background: #696969;
+	color: #FFFFFF;
+	border: solid 1px #000000;
+	position: fixed;
 }
 
 a {
