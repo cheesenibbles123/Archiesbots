@@ -6,7 +6,7 @@
   	position: fixed;
   	width: 100%;
   	height: 55px;
-  	overflow: hidden;
+  	overflow: visible;
 	font-size: 25px;
 	color: #FFFFFF;
 	background: #696969;
@@ -31,10 +31,10 @@
 	display: inline;
 	color: white;
 	text-align: center;
-	padding: 14px 16px;
 	text-decoration: none;
 	border-right: 2px solid #000000;
 	transition-duration: 0.2s;
+	background: inherit;
 }
 
 .navListR {
@@ -42,14 +42,38 @@
 	display: inline;
 	color: white;
 	text-align: center;
-	padding: 14px 16px;
 	text-decoration: none;
-	border-right: 2px solid #000000;
+	border-left: 2px solid #000000;
 	transition-duration: 0.2s;
 }
 
-.navList:hover {
+.navBtn:hover, .navBtn:hover, .mainHomeList:hover {
 	background: #111;
+}
+
+.navBtn {
+	padding: 14px 16px;
+	margin:0;
+}
+
+.mainHome:hover {
+	background: #696969;
+}
+
+.mainHome {
+	display: none;
+	background: inherit;
+	position: absolute;
+	width: inherit;
+	text-align: inherit;
+	text-decoration: none;
+	list-style-type: none;
+	padding: 0;
+	width: 165.25px;
+}
+
+.mainHomeList {
+	border-top: 2px solid #000000;
 }
 
 .sail {
@@ -176,7 +200,7 @@ a {
 }
 
 body {
-  	background-image: url('Images/bwCsharp.jpg');
+  	background-image: url('Images/giraffe.jpg');
   	background-position: center;
   	background-size: cover;
   	background-attachment: fixed;
