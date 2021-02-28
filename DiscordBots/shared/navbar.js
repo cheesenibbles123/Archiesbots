@@ -16,7 +16,7 @@ document.write(`
 	<ul class="navbar">
 
 		<li class="navListL">
-			<a onClick="javascript:myFunction('mainHome');" class="navBtn">Discord Bots</a>\
+			<a onClick="javascript:myFunction('mainHome');" class="navBtn">Discord Bots</a>
 			<ul id="mainHome" class="mainHome">
 				<li class="mainHomeList">
 					<a href="http://www.archiesbots.com/AlternionWiki/Home.html">Alternion</a>
