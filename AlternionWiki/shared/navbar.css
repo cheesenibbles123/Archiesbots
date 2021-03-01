@@ -33,6 +33,7 @@
 .navBtn {
 	padding: 14px 16px;
 	margin:0;
+	cursor:pointer;
 }
 
 .mainHome {
