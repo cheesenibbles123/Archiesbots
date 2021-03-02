@@ -1,4 +1,3 @@
-# Alternion-Wiki
-Repo for storing the files that will power the website
+Repo for storing the files that power the website
 
-Link: http://www.archiesbots.com/AlternionWiki/Home.html
+Link: http://www.archiesbots.com/index.html
