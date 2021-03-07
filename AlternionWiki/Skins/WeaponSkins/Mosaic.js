@@ -13,7 +13,7 @@ document.write(`
                 <td>Axe</td>
                 <td><code>axe_mosaic</code></td>
                 <td>Archie</td>
-                <td><img alt="Mosaic Axe" src="" height="320" width="180"></td>
+                <td><img alt="Mosaic Axe" src="" height="180" width="320"></td>
              </tr>
 
           </table>
