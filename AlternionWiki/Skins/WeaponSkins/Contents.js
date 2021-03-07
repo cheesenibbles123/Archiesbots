@@ -16,6 +16,12 @@ document.write(`
                         Sets
                         <ul>
                             <li>
+                                Diamond
+                            </li>
+                            <li>
+                                Inverted
+                            </li>
+                            <li>
                                 Mosaic
                             </li>
                             <li>
