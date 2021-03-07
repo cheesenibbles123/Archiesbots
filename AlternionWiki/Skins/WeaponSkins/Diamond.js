@@ -1,6 +1,6 @@
 document.write(`
 	<details>
-  		<summary class="infoBox">Mosaic</summary>
+  		<summary class="infoBox">Diamond</summary>
           <table class="tableLayout">
              <tr>
                 <th>Name</th>
@@ -10,10 +10,10 @@ document.write(`
              </tr>
 
              <tr>
-                <td>Mosaic Axe</td>
+                <td>Axe</td>
                 <td><code>axe_mosaic</code></td>
                 <td>Archie</td>
-                <td><img alt="Mosaic Axe" src="" height="320" width="180"></td>
+                <td><img alt="Diamond Axe" src="" height="320" width="180"></td>
              </tr>
 
           </table>
