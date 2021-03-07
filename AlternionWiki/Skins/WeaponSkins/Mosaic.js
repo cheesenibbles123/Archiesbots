@@ -10,10 +10,10 @@ document.write(`
              </tr>
 
              <tr>
-                <td>Mosaic Axe</td>
+                <td>Axe</td>
                 <td><code>axe_mosaic</code></td>
                 <td>Archie</td>
-                <td><img alt="Mosaic Axe" src="" height="200" width="200"></td>
+                <td><img alt="Mosaic Axe" src="" height="320" width="180"></td>
              </tr>
 
           </table>
