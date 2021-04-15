@@ -32,6 +32,10 @@ document.write(`
       </li>
 
       <li class="navListL">
+         <a href="http://www.archiesbots.com/AlternionWiki/Skins/Badges.html" class="navBtn">Badges</a>
+      </li>
+
+      <li class="navListL">
          <a href="http://www.archiesbots.com/AlternionWiki/Skins/Main-Sails.html" class="navBtn">Main Sails</a>
       </li>
 
