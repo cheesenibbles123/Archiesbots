@@ -16,6 +16,14 @@ document.write(`
 			        <td><img alt="GT" src="../Images/Badges/GT.png"></td>
 			        <td>Buccaneer Bay Brawl 2</td>
 			    </tr>
+
+			    <tr>
+			        <td>2nd GT Badge</td>
+			        <td><code>GT2</code></td>
+			        <td><img alt="GT" src="../Images/Badges/GT2.png"></td>
+			        <td>Tournamentwake 6</td>
+			    </tr>
+
 		    </table>
 		</details>
     </li>
