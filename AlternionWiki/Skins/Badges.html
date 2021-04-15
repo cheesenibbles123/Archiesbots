@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Badges</title>
+      <link href="../alternion.css" rel="stylesheet" type="text/css" />
+      <link href="../shared/navbar.css" rel="stylesheet" type="text/css" />
+      <meta charset='utf-8'>
+
+      <meta name="author" content="Cheesenibbles123">
+
+      <meta property="og:title" content="Alternion Badges" />
+      <meta property="og:site_name " content="Archiesbots" />
+      <meta property="og:description" content="Alternion badges page" />  
+      <meta property="og:url" content="http://www.archiesbots.com/AlternionWiki/Skins/Badges.html" />
+      <meta property="og:image" content="http://www.archiesbots.com/AlternionWiki/Images/bwCsharp.jpg" />
+
+      <meta name="theme-color" content="#696969">
+
+      <meta name="twitter:title" content="Alternion Badges">
+      <meta name="twitter:card" content="summary_large_image">
+   </head>
+
+   <script>
+      function toggleDetails(id){
+         var element = document.getElementById(id);
+         element.open = !element.open;
+      }
+      function togglePrivateDetails(id){
+         var element = document.getElementById('Restricted');
+         var toToggle = document.getElementById(id);
+         let elements = [document.getElementById('Unique').open,document.getElementById('Event').open,document.getElementById('Teams').open];
+         if (elements.indexOf(true) === 0 && toToggle.open === false){
+            element
+         }
+      }
+   </script>
+
+   <body>
+
+      <script src="../shared/navbar.js"></script>
+
+      <!-- Main Content -->
+      <div class="contentStart">
+
+         <div class="leftHalf">
+            <ul class="listNoBulletPoint">
+
+               <li>
+                  <details>
+                     <summary class="infoBox">🔓 Public</summary>
+                     <script src="./Badges/Public.js"></script>
+                  </details>
+               </li>
+
+               <li>
+                  <details>
+                     <summary class="infoBox">🔒 Restricted</summary> 
+
+                     <ul class="listNoBulletPoint">
+                        <li> 
+
+                           <script src="./Badges/Unique.js"></script> 
+
+                        </li><!-- Unique -->
+                        <li> 
+
+                           <script src="./Badges/Event.js"></script>  
+
+                        </li><!-- Event -->
+                        <li> 
+
+                           <details> 
+                              <summary class="infoBox">🛡️ Teams</summary>
+
+                              <ul class="listNoBulletPoint">
+                                 <script src="./Badges/AF.js"></script>
+                                 <script src="./Badges/CC.js"></script>
+                                 <script src="./Badges/GT.js"></script>
+                                 <script src="./Badges/RMD.js"></script>
+                                 <script src="./Badges/SE.js"></script>
+                                 <script src="./Badges/SO.js"></script>
+                                 <script src="./Badges/UC.js"></script>
+                              </ul>
+
+                           </details>
+
+                        </li><!-- Team Badges -->
+                     </ul>
+
+                  </details><!-- Restricted -->
+               </li>
+            </ul>
+         </div>
+
+         <div class="rightHalf">
+            <script src="./Badges/Contents.js"></script>
+         </div>
+
+      </div>
+
+      <script src="../shared/bottombar.js"></script>
+
+   </body>
+
+</html>
