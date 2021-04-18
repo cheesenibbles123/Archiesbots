@@ -1,0 +1,13 @@
+body {
+	background-image: url('fort1.png');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  color: white;
+}
