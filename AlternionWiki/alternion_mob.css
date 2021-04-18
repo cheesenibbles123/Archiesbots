@@ -1,0 +1,149 @@
+.sail {
+	border-radius: 25px;
+	width: 512px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.sailSlot {
+	width: 80%;
+	padding: 5px;
+	border-radius: 25px;
+	background: #FFFFFF;
+}
+
+.sailBox {
+	padding: 5px;
+	width: 30%;
+	border-radius: 25px;
+	background: #FFFFFF;
+	border: 2px solid #000000;
+}
+
+.infoBox {
+	padding: 5px;
+	width: 70%;
+	border-radius: 25px;
+	border: 2px solid #000000;
+	background: #FFFFFF;
+}
+
+.contentStart {
+  margin-top:65px;
+}
+
+.listNoBullet {
+  list-style-type: none;
+}
+
+.margin10 {
+  margin-left: 10px;
+  margin-top:10px;
+}
+
+.leftColumn {
+  width: 15%;
+  height: 100%;
+  float:left;
+}
+
+.rightColumn {
+  width: 85%;
+  height: 100%;
+  float:right;
+}
+
+.rightText {
+	padding: 5px;
+	background: white;
+	border: 2px solid #000000;
+	border-radius: 5px
+}
+
+.defaultBorder {
+    border: 2px solid #000000;
+}
+
+.aboutLink {
+    color: black;
+    text-align:center;
+}
+
+.quickLinksBlock {
+	color: white;
+	text-align: center;
+	padding: 5px;
+	border: 2px solid #000000;
+	border-radius: 10px
+}
+
+.quickLink {
+	padding: 5px;
+	width: 40%;
+	border: 2px solid #000000;
+	border-radius: 10px;
+	background: #FFFFFF;
+	margin: 0;
+}
+
+.listNoBulletPoint {
+	list-style-type: none;
+}
+
+.tableLayout {
+    border: 1px solid #000000;
+    background: #f5f5f5;
+    border-collapse:collapse;
+    text-align: center;
+}
+
+.leftHalf {
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+
+.rightHalf {
+	width: 0%;
+	height: 100%;
+	float: right;
+}
+
+.contentsBacking {
+	background: #696969;
+	color: #FFFFFF;
+	border: solid 1px #000000; 
+}
+
+a {
+	text-decoration: none;
+	display: block;
+  	color: white;
+}
+
+body {
+  	background-image: url('Images/bwCsharp.jpg');
+  	background-position: center;
+  	background-size: cover;
+  	background-attachment: fixed;
+  	background-repeat: no-repeat;
+}
+
+tr {
+	border-top: solid 1px #000000; 
+  	border-bottom: solid 1px #000000;
+}
+
+td, th {
+	padding: 10px;
+}
+
+code {
+	background: #D3D3D3;
+}
+
+ul {
+	padding: 0px;
+	padding-left: 3px;
+}

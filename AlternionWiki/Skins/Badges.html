@@ -4,7 +4,7 @@
    <head>
       <title>Badges</title>
       <link href="../alternion.css" rel="stylesheet" type="text/css" />
-      <link href="../shared/navbar.css" rel="stylesheet" type="text/css" />
+      <!-- <link href="../shared/navbar.css" rel="stylesheet" type="text/css" /> -->
       <meta charset='utf-8'>
 
       <meta name="author" content="Cheesenibbles123">
@@ -33,6 +33,24 @@
          if (elements.indexOf(true) === 0 && toToggle.open === false){
             element
          }
+      }
+
+      function setCSS(input){
+         var head = document.getElementsByTagName('HEAD')[0];
+         var link = document.createElement('link');
+         link.rel = 'stylesheet';
+         link.type = 'text/css';
+         link.href = input;
+         head.appendChild(link);
+      }
+
+      var user = navigator.userAgent;
+      if (/Android|iOS/.test(user)){
+         setCSS('../alternion_mob.css');
+         setCSS('../shared/navbar_mob.css');
+      }else{
+         setCSS('../alternion.css');
+         setCSS('../shared/navbar.css');
       }
    </script>
 
@@ -93,11 +111,23 @@
             </ul>
          </div>
 
-         <div class="rightHalf">
+         <div class="rightHalf" id = 'righthalf'>
             <script src="./Badges/Contents.js"></script>
          </div>
 
       </div>
+
+      <script type="text/javascript">
+         var user = navigator.userAgent;
+         if (/Android|iOS/.test(user)){
+            removeContents();
+         }
+         
+         function removeContents(){
+            var elem = document.getElementById("righthalf");
+            elem.remove();
+         }
+      </script>
 
       <script src="../shared/bottombar.js"></script>
 
