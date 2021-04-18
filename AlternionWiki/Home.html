@@ -4,7 +4,6 @@
    <head>
       <title>Alternion Home</title>
       <link href="alternion.css" rel="stylesheet" type="text/css" />
-      <link href="shared/navbar.css" rel="stylesheet" type="text/css" />
       <meta charset='utf-8'>
 
       <meta name="author" content="Cheesenibbles123">
@@ -20,6 +19,26 @@
       <meta name="twitter:title" content="Alternion Homepage">
       <meta name="twitter:card" content="summary_large_image">
    </head>
+
+   <script>
+      function setCSS(input){
+         var head = document.getElementsByTagName('HEAD')[0];
+         var link = document.createElement('link');
+         link.rel = 'stylesheet';
+         link.type = 'text/css';
+         link.href = input;
+         head.appendChild(link);
+      }
+
+      var user = navigator.userAgent;
+      if (/Android|iOS/.test(user)){
+         setCSS('shared/navbar_mob.css');
+      }else{
+         setCSS('shared/navbar.css');
+      }
+
+
+   </script>
 
    <body>
 
