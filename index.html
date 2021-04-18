@@ -3,7 +3,6 @@
 	<head>
 
 		<title>Home</title>
-		<link href="main.css" rel="stylesheet" type="text/css" />
 		<link href="Banners/navbar.css" rel="stylesheet" type="text/css" />
 		<meta charset='utf-8'>
 
@@ -22,10 +21,30 @@
 
 	</head>
 
+	<script>
+	function setCSS(input){
+		var head = document.getElementsByTagName('HEAD')[0];
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = input;
+		head.appendChild(link);
+	}
+
+	var user = navigator.userAgent;
+	if (/Android|iOS/.test(user)){
+		setCSS('mobile.css');
+	}else{
+		setCSS('main.css');
+	}
+
+	</script>
+
 	<script src="Banners/navbar.js"></script>
 
 	<body style="margin-top: 55px">
 	</body>
 
 	<script src="Banners/bottombar.js"></script>
+
 </html>
