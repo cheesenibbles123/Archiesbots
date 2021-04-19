@@ -3,8 +3,6 @@
 
    <head>
       <title>Weapon Skins</title>
-      <link href="../alternion.css" rel="stylesheet" type="text/css" />
-      <link href="../shared/navbar.css" rel="stylesheet" type="text/css" />
       <meta charset='utf-8'>
 
       <meta name="author" content="Cheesenibbles123">
@@ -20,6 +18,27 @@
       <meta name="twitter:title" content="Alternion Weapon Skins">
       <meta name="twitter:card" content="summary_large_image">
    </head>
+
+   <script>
+      function setCSS(input){
+         var head = document.getElementsByTagName('HEAD')[0];
+         var link = document.createElement('link');
+         link.rel = 'stylesheet';
+         link.type = 'text/css';
+         link.href = input;
+         head.appendChild(link);
+      }
+
+      var user = navigator.userAgent;
+      if (/Android|iOS/.test(user)){
+         setCSS('../alternion_mob.css');
+         setCSS('../shared/navbar_mob.css');
+      }else{
+         setCSS('../alternion.css');
+         setCSS('../shared/navbar.css');
+      }
+
+   </script>
 
    <body>
 
@@ -92,9 +111,21 @@
             </ul>
          </div>
 
-        <div class="rightHalf">
+        <div class="rightHalf" id='righthalf'>
            	<script src="./WeaponSkins/Contents.js"></script>
         </div>
+
+        <script type="text/javascript">
+            var user = navigator.userAgent;
+            if (/Android|iOS/.test(user)){
+               removeContents();
+            }
+
+            function removeContents(){
+               var elem = document.getElementById("righthalf");
+               elem.remove();
+            }
+         </script>
 
       </div>
 
