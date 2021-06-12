@@ -35,13 +35,16 @@ document.write(`
 			<a href="javascript:myFunction('oliverbot');" class="navBtn">Oliverbot</a>
 			<ul id="oliverbot" class="mainHome">
 				<li class="mainHomeList">
-					<a href="http://www.archiesbots.com/DiscordBots/Oliverbot/XP.php">XP</a>
-				</li>
-				<li class="mainHomeList">
 					<a href="http://www.archiesbots.com/DiscordBots/Oliverbot/commandUsage.php">Command Usage</a>
 				</li>
 				<li class="mainHomeList">
 					<a href="http://www.archiesbots.com/DiscordBots/Oliverbot/Economy.php">Economy</a>
+				</li>
+				<li class="mainHomeList">
+					<a href="http://www.archiesbots.com/DiscordBots/Oliverbot/info.html">Info</a>
+				</li>
+				<li class="mainHomeList">
+					<a href="http://www.archiesbots.com/DiscordBots/Oliverbot/XP.php">XP</a>
 				</li>
 			</ul>
 		</li>
