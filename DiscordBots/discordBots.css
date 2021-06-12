@@ -144,3 +144,7 @@ td, th {
 code {
 	background: #D3D3D3;
 }
+
+summary {
+	cursor: pointer;
+}
