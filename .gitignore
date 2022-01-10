@@ -1,1 +1,3 @@
 # *.php
+# Ignore images
+*.png
