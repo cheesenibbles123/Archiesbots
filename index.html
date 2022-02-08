@@ -3,7 +3,8 @@
 	<head>
 
 		<title>Home</title>
-		<!-- <link href="Banners/navbar.css" rel="stylesheet" type="text/css" /> -->
+		<link href="main.css" rel="stylesheet" type="text/css" />
+		<link href="Banners/navbar.css" rel="stylesheet" type="text/css" />
 		<meta charset='utf-8'>
 
 		<meta name="author" content="Cheesenibbles123">
@@ -22,23 +23,6 @@
 	</head>
 
 	<script>
-		function setCSS(input){
-			var head = document.getElementsByTagName('HEAD')[0];
-			var link = document.createElement('link');
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = input;
-			head.appendChild(link);
-		}
-
-		var user = navigator.userAgent;
-		if (/Android|iOS/.test(user)){
-			setCSS('mobile.css');
-			setCSS('Banners/navbar_mob.css');
-		}else{
-			setCSS('main.css');
-			setCSS('Banners/navbar.css');
-		}
 
 		window.onload = () => {
 			const img = new Image();
