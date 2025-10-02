@@ -18,13 +18,12 @@
 
 	<script>
 		window.onload = () => {
-			const img = new Image();
-			img.src = "fort_medium_res.png";
-			img.onload = () => {
+			const imgLoader = document.getElementById("imgLoader");
+			imgLoader.src = "fort_medium_res.png";
+			imgLoader.onload = () => {
 				document.body.style.backgroundImage = "url('fort_medium_res.png')";
-				const img2 = new Image();
-				img2.src = "fort_high_res.png";
-				img2.onload = () => {
+				imgLoader.src = "fort_high_res.png";
+				imgLoader.onload = () => {
 					document.body.style.backgroundImage = "url('fort_high_res.png')";
 				}
 			}
@@ -34,6 +33,7 @@
 	<script src="Banners/navbar.js"></script>
 
 	<body style="margin-top: 55px">
+		<img style="width:0; height:0;" src="" id="imgLoader"></img>
 	</body>
 
 	<script src="Banners/bottombar.js"></script>

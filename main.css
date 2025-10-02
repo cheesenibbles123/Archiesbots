@@ -8,12 +8,17 @@ body {
   overflow: hidden;
 }
 
+html {
+  background-color: black;
+}
+
 body {
   background-image: url('fort_low_res.png');
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  transition: background 1s linear;
 }
 
 a {

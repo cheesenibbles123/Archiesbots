@@ -6,6 +6,13 @@ body {
 	margin: 0;
 }
 
+html {
+	background-color: #000000;	
+}
+body{
+	transition: background .5s ease;
+}
+
 .sail {
 	border-radius: 25px;
 	width: 512px;
