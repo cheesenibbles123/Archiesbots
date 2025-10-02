@@ -4,7 +4,6 @@ document.write(`
           Contents
         </h2>
         <ul class="listNoBulletPoint">
-
             <li>
                 Public
             </li>

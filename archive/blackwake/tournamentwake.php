@@ -1,20 +1,9 @@
 <!DOCTYPE html>
-
 <html>
-	
 	<head>
-
-		<script>
- 			window.dataLayer = window.dataLayer || [];
-  			function gtag(){dataLayer.push(arguments);}
-  			gtag('js', new Date());
-  			gtag('config', 'UA-167872714-1');
-		</script>
-		
 		<title>Tournamentwake Arrrchive</title>
 		<link rel="icon" href="https://cdn.discordapp.com/avatars/337541914687569920/a1d7679af509cec3ef5cd766292416c9.png">
 		<link href="../styles/archive.css" rel="stylesheet" type="text/css" />
-		
 	</head>
 
 	<header class="topbanner">
@@ -22,113 +11,106 @@
 	</header>
 
 	<body>
-		
 		<section>
-
 			<nav>
-
 				<div class="navbar">
+					<a href="../../index.html">Home</a>
 
- 					<a href="../../index.html">Home</a>
+					<div class="dropdown">
+						<button class="dropbtn" onclick="myFunction()">Blackwake
+							<i class="fa fa-caret-down"></i>
+						</button>
+						<div class="dropdown-content" id="myDropdown">
+							<a href="bwhome.php">BW Home</a>
+							<a href="tournamentwake.php">Tournamentwake</a>
+							<a href="balancewake.php">Balancewake</a>
+							<a href="bftortuga.php">Battlefield Tortuga</a>
+							<a href="HolyHammerEvents.php">Holy Hammer Events</a>
+						</div>
+					</div>
 
-  					<div class="dropdown">
-  						<button class="dropbtn" onclick="myFunction()">Blackwake
-    						<i class="fa fa-caret-down"></i>
-  						</button>
-  						<div class="dropdown-content" id="myDropdown">
-  							<a href="bwhome.php">BW Home</a>
-    						<a href="tournamentwake.php">Tournamentwake</a>
-    						<a href="balancewake.php">Balancewake</a>
-    						<a href="bftortuga.php">Battlefield Tortuga</a>
-    						<a href="HolyHammerEvents.php">Holy Hammer Events</a>
-  						</div>
-  					</div> 
+					<script>
+						function myFunction() {
+							document.getElementById("myDropdown").classList.toggle("show");
+						}
 
-  					<script>
-					function myFunction() {
- 			 			document.getElementById("myDropdown").classList.toggle("show");
-					}
-
-					window.onclick = function(e) {
-  						if (!e.target.matches('.dropbtn')) {
-  							var myDropdown = document.getElementById("myDropdown");
-    						if (myDropdown.classList.contains('show')) {
-      							myDropdown.classList.remove('show');
-    						}
-  						}
-					}
-					</script>
-
-  					<div class="dropdown">
-  						<button class="dropbtn" onclick="BSdrpdwn()">Blazing Sails
-    						<i class="fa fa-caret-down"></i>
-  						</button>
-  						<div class="dropdown-content" id="BSdrpdwn">
-    						<a href="#">Blazing Tourneys</a>
-    						<a href="../blazingsails/imagecontestwinners.php">Image contest winners</a>
-  						</div>
-  					</div>
-
-  					<script>
-					function BSdrpdwn() {
- 			 			document.getElementById("BSdrpdwn").classList.toggle("show");
-					}
-
-					window.onclick = function(e) {
-  						if (!e.target.matches('.dropbtn')) {
-  							var myDropdown = document.getElementById("BSdrpdwn");
-    						if (myDropdown.classList.contains('show')) {
-      							myDropdown.classList.remove('show');
-    						}
-  						}
-					}
+						window.onclick = function(e) {
+							if (!e.target.matches('.dropbtn')) {
+								var myDropdown = document.getElementById("myDropdown");
+								if (myDropdown.classList.contains('show')) {
+									myDropdown.classList.remove('show');
+								}
+							}
+						}
 					</script>
 
 					<div class="dropdown">
-  						<button class="dropbtn" onclick="olb()">Oliverbot
-    						<i class="fa fa-caret-down"></i>
-  						</button>
-  						<div class="dropdown-content" id="olb">
-    						<a href="../oliverbot/leaderboards.php">Leaderboards</a>
-    						<a href="../oliverbot/commandusagefrequency.php">Command usage</a>
-  						</div>
-  					</div>
+						<button class="dropbtn" onclick="BSdrpdwn()">Blazing Sails
+							<i class="fa fa-caret-down"></i>
+						</button>
+						<div class="dropdown-content" id="BSdrpdwn">
+							<a href="#">Blazing Tourneys</a>
+							<a href="../blazingsails/imagecontestwinners.php">Image contest winners</a>
+						</div>
+					</div>
 
-  					<script>
-					function olb() {
- 			 			document.getElementById("olb").classList.toggle("show");
-					}
+					<script>
+						function BSdrpdwn() {
+							document.getElementById("BSdrpdwn").classList.toggle("show");
+						}
 
-					window.onclick = function(e) {
-  						if (!e.target.matches('.dropbtn')) {
-  							var myDropdown = document.getElementById("olb");
-    						if (myDropdown.classList.contains('show')) {
-      							myDropdown.classList.remove('show');
-    						}
-  						}
-					}
+						window.onclick = function(e) {
+							if (!e.target.matches('.dropbtn')) {
+								var myDropdown = document.getElementById("BSdrpdwn");
+								if (myDropdown.classList.contains('show')) {
+									myDropdown.classList.remove('show');
+								}
+							}
+						}
 					</script>
 
-				</div>
+					<div class="dropdown">
+						<button class="dropbtn" onclick="olb()">Oliverbot
+							<i class="fa fa-caret-down"></i>
+						</button>
+						<div class="dropdown-content" id="olb">
+							<a href="../oliverbot/leaderboards.php">Leaderboards</a>
+							<a href="../oliverbot/commandusagefrequency.php">Command usage</a>
+						</div>
+					</div>
 
+					<script>
+						function olb() {
+							document.getElementById("olb").classList.toggle("show");
+						}
+
+						window.onclick = function(e) {
+							if (!e.target.matches('.dropbtn')) {
+								var myDropdown = document.getElementById("olb");
+								if (myDropdown.classList.contains('show')) {
+									myDropdown.classList.remove('show');
+								}
+							}
+						}
+					</script>
+				</div>
 			</nav>
 
 			<h1>Tournamentwake</h1>
 
 			<article>
-
 				<div class="articlebox">
-
 					<div style="background-color:white;padding:10px;">
 						<button class="dropbtn drpdwnbtnaesthetics" onclick="tw1()">Tournamentwake 1 - 23/02/2019
-    						<i class="fa fa-caret-down"></i>
-  						</button>
-  						<div class="dropdown-content" id="tw1">
-    						<a>	
-    							<b>Format</b><br>
-    							<br>
-    							Each bracket will consist of a BO3. (Best of three)<br>
-    							<br>
+							<i class="fa fa-caret-down"></i>
+						</button>
+
+						<div class="dropdown-content" id="tw1">
+							<a>
+								<b>Format</b><br>
+								<br>
+								Each bracket will consist of a BO3. (Best of three)<br>
+								<br>
 								The bracket is seeded based on the results of the last tournament. The number 1 of last tournament will play against the lowest seeded team of last tournament, the number 2 of last tournament will play against the second lowest seeded team of last tournament and so forth. The bracket (for now) is found here https://challonge.com/tournamentwake1 (This might be updated in the coming week)<br>
 								<br>
 								If more than 4 teams will be present there will be a qualifying match between the lowest seeded teams.<br>
@@ -136,12 +118,12 @@
 								Results from this tournament will be used for the bracket placements in the next tournament.<br>
 								<br>
 								The winner of the tournament will play ANZACS Finest either the 1st or 2nd weekend after the tournament at a time that fits both teams<br>
- 								<br>
-    							2vs2 small ships CTB.<br>
-    							<br>
-    							<br>
-    							<b>Rules</b><br>
-    							<br>
+								<br>
+								2vs2 small ships CTB.<br>
+								<br>
+								<br>
+								<b>Rules</b><br>
+								<br>
 								No Barshot<br>
 								<br>
 								No game breaking exploits<br>
@@ -169,67 +151,69 @@
 								<br>
 								Main bracket: <a href="https://youtu.be/wl-lLdxecdw">https://youtu.be/wl-lLdxecdw</a><br>
 								Challenger Match: <a href="https://youtu.be/rqYbnKFrNNM">https://youtu.be/rqYbnKFrNNM</a><br>
-    						</a>
-  						</div>
-  						<script>
-  							function tw1() {
- 			 					document.getElementById("tw1").classList.toggle("show");
+							</a>
+						</div>
+
+						<script>
+							function tw1() {
+								document.getElementById("tw1").classList.toggle("show");
 							}
 						</script>
+					</div>
 
-  					</div>
-
-  					<div style="background-color:white;padding:10px;">
+					<div style="background-color:white;padding:10px;">
 						<button class="dropbtn drpdwnbtnaesthetics" onclick="tw2()">Tournamentwake 2 - 06-13/04/2019
-    						<i class="fa fa-caret-down"></i>
-  						</button>
-  						<div class="dropdown-content" id="tw2">
-    						<a>	
-    							<b>Format</b><br>
-    							<br>
-    							-2 round robin qualifiers<br>
-    							-4 teams advance to semifinals<br>
-    							<br>
-    							<b>Results</b><br>
-    							-1st ahoy<br>
-    							-2nd GT<br>
-    							-3rd CC/SMS<br>
+							<i class="fa fa-caret-down"></i>
+						</button>
+
+						<div class="dropdown-content" id="tw2">
+							<a>
+								<b>Format</b><br>
+								<br>
+								-2 round robin qualifiers<br>
+								-4 teams advance to semifinals<br>
+								<br>
+								<b>Results</b><br>
+								-1st ahoy<br>
+								-2nd GT<br>
+								-3rd CC/SMS<br>
 								<br>
 								<b>VOD's</b><br>
 								<br>
 								Round Robin (EU/RU) VOD: <a href="https://youtu.be/53WcligN3_I">https://youtu.be/53WcligN3_I</a><br>
 								Round Robin (NA/AU) VOD: <a href="https://youtu.be/s1967f6udFU">https://youtu.be/s1967f6udFU</a><br>
 								Finals VOD: <a href="https://youtu.be/jLnZNnY8ca4">https://youtu.be/jLnZNnY8ca4</a><br>
-    						</a>
-  						</div>
-  						<script>
-  							function tw2() {
- 			 					document.getElementById("tw2").classList.toggle("show");
+							</a>
+						</div>
+
+						<script>
+							function tw2() {
+								document.getElementById("tw2").classList.toggle("show");
 							}
 						</script>
+					</div>
 
-  					</div>
-
-  					<div style="background-color:white;padding:10px;">
+					<div style="background-color:white;padding:10px;">
 						<button class="dropbtn drpdwnbtnaesthetics" onclick="tw3()">Tournamentwake 3 - 20/07/2019
-    						<i class="fa fa-caret-down"></i>
-  						</button>
-  						<div class="dropdown-content" id="tw3">
-    						<a>	
-    							<b>Format</b><br>
-    							<br>
-    							2v2 Small Ships CTB- Matches will be played on a freshly restarted GT server (accommodates all teams with a half decent ping)<br>
-    							<br>
-    							A best of 1 Round Robin will be played first to determine places on the bracket. Booty captures and losses will be recorded as a fall back in the event of a draw.<br>
-    							<br>
-    							<img src="https://preview.redd.it/e3x0o57fe0b31.jpg?width=728&format=pjpg&auto=webp&s=9cfd18359ae5c0cb64b5820005902aecce1e8ec2" alt="round robin format">
-    							<br>
-    							A BO3 single elimination bracket will then be played to decide the overall winner (example below).<br>
-    							<br>
-    							<img src="https://preview.redd.it/3wbfi7jge0b31.png?width=723&format=png&auto=webp&s=fca3acddbb06212e2a8475368d68570d9c32ebb5" alt="Elimination bracket">
-    							<br>
-    							Note:<br>
-    							<ul>
+							<i class="fa fa-caret-down"></i>
+						</button>
+
+						<div class="dropdown-content" id="tw3">
+							<a>
+								<b>Format</b><br>
+								<br>
+								2v2 Small Ships CTB- Matches will be played on a freshly restarted GT server (accommodates all teams with a half decent ping)<br>
+								<br>
+								A best of 1 Round Robin will be played first to determine places on the bracket. Booty captures and losses will be recorded as a fall back in the event of a draw.<br>
+								<br>
+								<img src="https://preview.redd.it/e3x0o57fe0b31.jpg?width=728&format=pjpg&auto=webp&s=9cfd18359ae5c0cb64b5820005902aecce1e8ec2" alt="round robin format">
+								<br>
+								A BO3 single elimination bracket will then be played to decide the overall winner (example below).<br>
+								<br>
+								<img src="https://preview.redd.it/3wbfi7jge0b31.png?width=723&format=png&auto=webp&s=fca3acddbb06212e2a8475368d68570d9c32ebb5" alt="Elimination bracket">
+								<br>
+								Note:<br>
+								<ul>
 									<li>Games will be played without a match timer (first to 2 booty captures wins the round)</li>
 									<li>In the event of a 3-way tie across the board, the bracket will be randomized using the 'SHUFFLE SEEDS' capabilities of the website, (https://challonge.com/)</li>
 								</ul>
@@ -315,31 +299,32 @@
 								I wish all participants the best of luck. Lets have another fun tournament.<br>
 								<br>
 								<b>Results</b><br>
-    							-1st CC<br>
-    							-2nd UC<br>
-    							-3rd GT<br>
+								-1st CC<br>
+								-2nd UC<br>
+								-3rd GT<br>
 								<br>
-    						</a>
-  						</div>
-  						<script>
-  							function tw3() {
- 			 					document.getElementById("tw3").classList.toggle("show");
+							</a>
+						</div>
+
+						<script>
+							function tw3() {
+								document.getElementById("tw3").classList.toggle("show");
 							}
 						</script>
+					</div>
 
-  					</div>
-
-  					<div style="background-color:white;padding:10px;">
+					<div style="background-color:white;padding:10px;">
 						<button class="dropbtn drpdwnbtnaesthetics" onclick="tw4()">Tournamentwake 4 - 07/12/2019
-    						<i class="fa fa-caret-down"></i>
-  						</button>
-  						<div class="dropdown-content" id="tw4">
-    						<a>
-    							<b>When will the tournament take place?</b><br>
+							<i class="fa fa-caret-down"></i>
+						</button>
+
+						<div class="dropdown-content" id="tw4">
+							<a>
+								<b>When will the tournament take place?</b><br>
 								-Saturday 7th of Dec 2019 - 17:00 UTC<br>
-    							<br>
-    							<b>Format:</b><br>
-    							<br>
+								<br>
+								<b>Format:</b><br>
+								<br>
 								2 vs 2 - Small Ships - CTB Matches will be played on freshly restarted servers provided by Great Tortuga, Buccaneer Bay and Candlelight Cove (accommodates all teams with a manageable half decent ping)<br>
 								<br>
 								The tournament will be a BO3 single elimination bracket (example below).<br>
@@ -416,48 +401,44 @@
 								-Alternatively you could sign up with a community that are known to field a team. Be aware however that it is likely these communities already have a competitive team in place consisting of the right number + reserves, it really cant hurt to ask though. (Find these communities in '#community-discords' on the Official Blackwake discord)<br>
 								<br>
 								<br>
-								<b>"Where can I watch this?"</b><vr>
-								<br>
-								We are still confirming our casters involvements at this time, hopefully have some confirmations in the coming days. However all tournament castings tend to be here: https://www.twitch.tv/stackwake<br>
-								<br>
-								<br>
-								<b>Contact the event organizers:</b><br>
-								<br>
-								If you have any further questions regarding this tournament, you may join and ask in our competitive BW discord: https://discord.gg/S7cR8Aw<br>
-								<br>
-								As mentioned above, you may also contact [GT] Spartan via PM or via the Great Tortuga discord: https://discord.gg/fvaCnMB<br>
-								<br>
-								Special thanks to the team organizers for their inputs and compromises.<br>
-								<br>
-								I wish all participating teams the best of luck. Lets have another fun Tournament. ~Spartan
-								<br>
-								<br>
-								<b>Results</b><br>
-								<ol>
-									<li>Unity of the Comerades</li>
-									<li>Great Tortuga</li>
-									<li>Candellight Cove</li>
-								</ol>
-								<br>
-								<b>VOD</b><br>
-								<br>
-								<a href="https://www.twitch.tv/videos/518337614">https://www.twitch.tv/videos/518337614</a>
-    						</a>
-  						</div>
-  						<script>
-  							function tw4() {
- 			 					document.getElementById("tw4").classList.toggle("show");
+								<b>"Where can I watch this?"</b>
+								<vr>
+									<br>
+									We are still confirming our casters involvements at this time, hopefully have some confirmations in the coming days. However all tournament castings tend to be here: https://www.twitch.tv/stackwake<br>
+									<br>
+									<br>
+									<b>Contact the event organizers:</b><br>
+									<br>
+									If you have any further questions regarding this tournament, you may join and ask in our competitive BW discord: https://discord.gg/S7cR8Aw<br>
+									<br>
+									As mentioned above, you may also contact [GT] Spartan via PM or via the Great Tortuga discord: https://discord.gg/fvaCnMB<br>
+									<br>
+									Special thanks to the team organizers for their inputs and compromises.<br>
+									<br>
+									I wish all participating teams the best of luck. Lets have another fun Tournament. ~Spartan
+									<br>
+									<br>
+									<b>Results</b><br>
+									<ol>
+										<li>Unity of the Comerades</li>
+										<li>Great Tortuga</li>
+										<li>Candellight Cove</li>
+									</ol>
+									<br>
+									<b>VOD</b><br>
+									<br>
+									<a href="https://www.twitch.tv/videos/518337614">https://www.twitch.tv/videos/518337614</a>
+							</a>
+						</div>
+
+						<script>
+							function tw4() {
+								document.getElementById("tw4").classList.toggle("show");
 							}
 						</script>
-
-  					</div>
-
+					</div>
 				</div>
-
 			</article>
-		
 		</section>
-	
 	</body>
-
 </html>

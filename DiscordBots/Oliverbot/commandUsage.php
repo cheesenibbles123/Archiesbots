@@ -1,34 +1,26 @@
 <!DOCTYPE html>
 <html>
-
    <head>
       <title>Command Usage</title>
       <link href="../discordBots.css" rel="stylesheet" type="text/css" />
       <link href="../shared/navbar.css" rel="stylesheet" type="text/css" />
       <meta charset='utf-8'>
-
       <meta name="author" content="Cheesenibbles123">
-
       <meta property="og:title" content="Oliverbot Command Usage page" />
       <meta property="og:site_name " content="Archiesbots" />
       <meta property="og:description" content="Oliverbot Command Usage page" />  
       <meta property="og:url" content="http://www.archiesbots.com/DiscordBots/Oliverbot/commandUsage.php" />
       <meta property="og:image" content="http://www.archiesbots.com/DiscordBots/Images/giraffe.jpg" />
-
       <meta name="theme-color" content="#696969">
-
       <meta name="twitter:title" content="Oliverbot Command Usage page">
       <meta name="twitter:card" content="summary_large_image">
    </head>
 
    <body>
-
       <script src="../shared/navbar.js"></script>
 
       <div style="margin-top:65px;">
-
          <?php
-
             $host = apache_getenv("DATABASE_HOST");
             $username = apache_getenv("DATABASE_USERNAME");
             $password = apache_getenv("DATABASE_PASSWORD");
@@ -58,13 +50,9 @@
             echo "</table>";
 
             mysqli_close($con);
-
-          ?>
-
+         ?>
       </div>
 
       <script src="../shared/bottombar.js"></script>
-
    </body>
-
 </html>

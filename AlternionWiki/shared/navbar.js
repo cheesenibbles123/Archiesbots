@@ -1,7 +1,5 @@
 document.write(`
-
    <script>
-
       function myFunction(itemID) {
          var doc = document.getElementById(itemID);
          if (doc.style.display == 'block'){
@@ -10,11 +8,9 @@ document.write(`
             doc.style.display = 'block';
          }
       };
-
    </script>
 
    <ul class="navbar">
-
       <li class="navListL">
          <a onClick="javascript:myFunction('mainHome');" class="navBtn">Alternion</a>
          <ul id="mainHome" class="mainHome">
@@ -58,7 +54,5 @@ document.write(`
       <li class="navListR">
          <a href="http://www.archiesbots.com/AlternionWiki/About.html" class="navBtn">About</a>
       </li>
-
    </ul>
-
 `);

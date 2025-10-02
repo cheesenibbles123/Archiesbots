@@ -16,8 +16,6 @@ document.write(`
                 <td>Archie</td>
                 <td><img alt="Inverted Spyglass" src="http://www.archiesbots.com/AlternionWiki/Images/WeaponSkins/Inverted_Spyglass.jpg" height="180" width="320"></td>
             </tr>
-
         </table>
-
     </details>
 `);

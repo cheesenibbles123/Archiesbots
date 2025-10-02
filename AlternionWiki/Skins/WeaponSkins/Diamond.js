@@ -23,8 +23,6 @@ document.write(`
                 <td>Archie</td>
                 <td><img alt="Diamond Musket" src="http://www.archiesbots.com/AlternionWiki/Images/WeaponSkins/Diamond_Musket.jpg" height="180" width="320"></td>
             </tr>
-
         </table>
-
     </details>
 `);

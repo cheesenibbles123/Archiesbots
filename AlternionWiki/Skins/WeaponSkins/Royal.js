@@ -3,7 +3,6 @@ document.write(`
   		<summary class="infoBox">Royal</summary>
 
         <table class="tableLayout">
-
             <tr>
                 <th>Name</th>
                 <th>ID</th>
@@ -52,8 +51,6 @@ document.write(`
                 <td>Archie</td>
                 <td><img alt="Royal Rapier" src="http://www.archiesbots.com/AlternionWiki/Images/WeaponSkins/Royal_Rapier.jpg" height="180" width="320"></td>
             </tr>
-
         </table>
-
     </details>
 `);

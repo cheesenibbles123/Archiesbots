@@ -1,22 +1,19 @@
 document.write(`
-
 	<script>
-
 		function myFunction(itemID) {
 			var doc = document.getElementById(itemID);
 			if (doc.style.display == 'block'){
 				doc.style.display = 'none';
-			}else{
+			} else {
 				doc.style.display = 'block';
 			}
 		};
-
 	</script>
 
 	<ul class="navbar">
-
 		<li class="navListL">
 			<a onClick="javascript:myFunction('mainHome');" class="navBtn">Discord Bots</a>
+			
 			<ul id="mainHome" class="mainHome">
 				<li class="mainHomeList">
 					<a href="http://www.archiesbots.com/AlternionWiki/Home.html">Alternion</a>
@@ -45,7 +42,5 @@ document.write(`
 		<li class="navListR">
 			<a href="#" class="navBtn">About</a>
 		</li>
-
 	</ul>
-
 `);
