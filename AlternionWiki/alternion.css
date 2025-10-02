@@ -16,13 +16,13 @@ body {
 
 .sailSlot {
 	width: 80%;
-	padding: 5px;
+	padding: .4vh;
 	border-radius: 25px;
 	background: #FFFFFF;
 }
 
 .sailBox {
-	padding: 5px;
+	padding: .4vh;
 	width: 30%;
 	border-radius: 25px;
 	background: #FFFFFF;
@@ -30,19 +30,44 @@ body {
 }
 
 .infoBox {
-	padding: 5px;
+	padding: .4vh;
 	width: 30%;
 	border-radius: 25px;
 	border: 2px solid #000000;
 	background: #FFFFFF;
 }
 
+.contentStart.faq .infoBox {
+	padding: .8vh;
+}
+
 .contentStart {
 	margin-top: 65px;
+	display: flex;
+	padding-bottom: 5vh;
+	height: 100%;
+}
+
+.contentStart.faq {
+	display: flex;
+	flex-direction: column;
+	padding: 3vh;
+}
+
+.contentStart.faq h1 {
+	color: white;
 }
 
 .listNoBullet {
 	list-style-type: none;
+}
+
+.contentStart.faq details[open=""] summary {
+	border-bottom: 2px solid black;
+	margin-bottom: 1vh;
+}
+.contentStart.faq details summary {
+	padding: .4vh;
 }
 
 .margin10 {
@@ -58,15 +83,15 @@ body {
 
 .rightColumn {
 	width: 85%;
-	height: 100%;
+	height: fit-content;
 	float: right;
 }
 
 .rightText {
-	padding: 5px;
+	padding: .1vh;
 	background: white;
 	border: 2px solid #000000;
-	border-radius: 5px
+	border-radius: 5px;
 }
 
 .defaultBorder {
@@ -81,14 +106,23 @@ body {
 .quickLinksBlock {
 	color: white;
 	text-align: center;
-	padding: 5px;
+	padding: .4vh;
 	border: 2px solid #000000;
-	border-radius: 10px
+	border-radius: 10px;
+	background: #696969;
+	font-size: 2vh;
+}
+
+.quickLinksBlock .listNoBullet {
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .quickLink {
-	padding: 5px;
-	width: 40%;
+	padding: .4vh;
+	width: 70%;
 	border: 2px solid #000000;
 	border-radius: 10px;
 	background: #FFFFFF;

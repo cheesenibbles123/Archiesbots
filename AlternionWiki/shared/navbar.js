@@ -43,16 +43,16 @@ document.write(`
          <a href="http://www.archiesbots.com/AlternionWiki/Skins/Flags.html" class="navBtn">Flags</a>
       </li>
 
+      <li class="navListR" style="margin-left: auto">
+      <a href="http://www.archiesbots.com/AlternionWiki/About.html" class="navBtn">About</a>
+      </li>
+      
+      <li class="navListR">
+      <a href="http://www.archiesbots.com/AlternionWiki/FAQ.html" class="navBtn">FAQ</a>
+      </li>
+      
       <li class="navListR">
          <a href="http://www.archiesbots.com/index.html" class="navBtn">Archies Bots</a>
-      </li>
-
-      <li class="navListR">
-         <a href="http://www.archiesbots.com/AlternionWiki/FAQ.html" class="navBtn">FAQ</a>
-      </li>
-
-      <li class="navListR">
-         <a href="http://www.archiesbots.com/AlternionWiki/About.html" class="navBtn">About</a>
       </li>
    </ul>
 `);
