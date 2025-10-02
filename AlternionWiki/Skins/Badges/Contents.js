@@ -16,7 +16,7 @@ document.write(`
                         Unique
                     </li>
                     <li>
-                        <a href="javascript:togglePrivateDetails('Event');">Event</a>
+                        <a href="javascript:toggleDetails('Event');">Event</a>
                     </li>
                     <li>
                         Teams

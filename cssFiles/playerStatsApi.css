@@ -1,0 +1,34 @@
+body {
+  background-color: transparent;
+  overflow: hidden;
+}
+
+p {
+	padding: 0;
+}
+
+.surround {
+	background: #9400D3;
+	font-size: 25px;
+	display: block;
+	border-radius: 25px;
+	list-style-type: none;
+	margin: 0;
+  	padding: 0;
+  	top: 0;
+  	height: 300px;
+}
+
+.content {
+	border: 2px solid #000000;
+	background: #FFFFFF;
+	display: inline-block;
+	border-radius: 25px;
+	height: 280px;
+	width: 33%;
+	margin: 0;
+}
+
+.paddingBox {
+	padding: 15px;
+}

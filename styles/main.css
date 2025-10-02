@@ -1,0 +1,163 @@
+body {
+	background: white;
+	font-family:ariel;
+}
+
+h1, h2, li {
+	color:#354;
+}
+
+a {
+	color:blue;
+}
+
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+  text-align: left;
+}
+
+tr:hover {background-color: #f5f5f5;}
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+  background-color: #00008b;
+  color: white;
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+nav {
+  float: left;
+  width: 23%;
+  background: #ccc;
+  padding: 20px;
+}
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.button {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 7px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  border: 2px solid black;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.button:hover {
+  background-color: white;
+  box-shadow: 0 3px 4px 0 rgba(0,0,0,0.24), 0 4px 12px 0 rgba(0,0,0,0.19);
+  border: none;
+  color: black;
+  padding: 7px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  border: 2px solid black;
+}
+
+.buttondisabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  float:right;
+  background-color:#00008b;
+  color:white;
+  font-size: 16px;
+  border: 2px solid black;
+  padding: 7px 16px;
+  border-radius: 8px;
+}
+
+.topbanner{
+  background-color:#00008b;
+  padding:10px;
+  color:white;
+  text-align:left;
+  height:50px;
+  font-size:25px;
+  height:100%;
+}
+
+.optionsbox{
+  display:block;
+  color:black;
+  padding:10px;
+  font-size:15px;
+  height:100px;
+}
+
+.circleimg{
+	border-radius: 50%;
+}
+.circleimg2{
+  float:right;
+  border-radius: 50%;
+}
+
+.faqbox{
+	background-color:#00008b;
+	color:white;
+	border-radius:10px;
+	padding:10px;
+}
+.faqtxtbox{
+	background-color:#add8e6;
+	border-radius:10px;
+	color:black;
+	padding:10px;
+}
+
+.center {
+  margin: auto;
+  text-align: center;
+}
+
+.footer {
+  position: fixed;
+  width: 100%;
+  background-color: #d3d3d3;
+  color: black;
+  text-align: center;
+  display:block;
+}
+
+.left{
+  float:left;
+}
+
+.right{
+  float:right;
+}

@@ -1,0 +1,551 @@
+{
+	"weaponSkin" : "annelyRevolver_blue",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "annelyRevolver_red",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "annelyRevolver_diamond",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "axe_blue",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "duckfoot_blue",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "hammer_blue",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&{
+	"weaponSkin" : "hammer_red",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "handmortar_blue",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "handmortar_red",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "matchlock_blue",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "matchlock_red",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "matchlock_diamond",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "matchlock_royal",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "musket_blue",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "musket_red",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "nockgun_blue",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "pike_blue",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "tomohawk_blue",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "tomohawk_diamond",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "tomohawk_red",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "tomohawk_royal",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "annelyRevolver_christmas",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "axe_christmas",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "blunderbuss_christmas",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "blunderbuss_royal",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "blunderbuss_diamond",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "cutlass_christmas",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "cutlass_diamond",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "cutlass_royal",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "dagger_christmas",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "dagger_diamond",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "duckfoot_christmas",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "duckfoot_diamond",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "grenade_christmas",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "handmortar_christmas",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "musket_christmas",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "nockgun_christmas",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "pike_christmas",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "pike_diamond",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "pike_red",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "rapier_christmas",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "shortPistol_christmas",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "shortPistol_diamond",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "shortPistol_royal",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "duckfoot_red",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "musket_diamond",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "nockgun_diamond",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "axe_inverted",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "blunderbuss_inverted",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "musket_inverted",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "nockgun_inverted",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "rapier_inverted",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "rapier_diamond",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "teaCup_inverted",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "spyglass_inverted",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "axe_diamond",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "axe_mosaic",
+	"hasAlb" : true,
+	"hasMet" : true,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "axe_posterized",
+	"hasAlb" : true,
+	"hasMet" : true,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "blunderbuss_mosaic",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "handmortar_diamond",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "handmortar_mosaic",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "annelyRevolver_royal",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "axe_royal",
+	"hasAlb" : true,
+	"hasMet" : true,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "axe_red",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "dagger_royal",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "duckfoot_royal",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "grenade_royal",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "musket_royal",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "nockgun_red",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "nockgun_royal",
+	"hasAlb" : true,
+	"hasMet" : true,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "pike_royal",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "rapier_royal",
+	"hasAlb" : true,
+	"hasMet" : true,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "cannon_brass",
+	"hasAlb" : true,
+	"hasMet" : true,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "cannon_diamond_bracing",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "cannon_gold_bracing",
+	"hasAlb" : true,
+	"hasMet" : true,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "cannon_red",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "cannon_se_gold",
+	"hasAlb" : true,
+	"hasMet" : true,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "cannon_inverted",
+	"hasAlb" : true,
+	"hasMet" : true,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "swivel_royal",
+	"hasAlb" : true,
+	"hasMet" : true,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "mortar_royal",
+	"hasAlb" : true,
+	"hasMet" : true,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "mortar_mosaic",
+	"hasAlb" : true,
+	"hasMet" : true,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "cannon_gtCannon",
+	"hasAlb" : true,
+	"hasMet" : true,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "swivel_gtSwivel",
+	"hasAlb" : true,
+	"hasMet" : true,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "swivel_gtSwivel2",
+	"hasAlb" : true,
+	"hasMet" : true,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "cannon_gtCannon2",
+	"hasAlb" : true,
+	"hasMet" : true,
+	"hasNrm" : false
+}&
+{
+	"weaponSkin" : "dagger_stick",
+	"hasAlb" : true,
+	"hasMet" : true,
+	"hasNrm" : false,
+	"hasMesh" : true
+}&
+{
+	"weaponSkin" : "cannon_engraved",
+	"hasAlb" : true,
+	"hasMet" : true,
+	"hasNrm" : false,
+	"hasMesh" : true
+}&
+{
+	"weaponSkin" : "standardPistol_diamond",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false,
+	"hasMesh" : false
+}&
+{
+	"weaponSkin" : "standardPistol_royal",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false,
+	"hasMesh" : false
+}&
+{
+	"weaponSkin" : "mask_UCCaptain",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false,
+	"hasMesh" : false
+}&
+{
+	"weaponSkin" : "mask_UCSailor",
+	"hasAlb" : true,
+	"hasMet" : false,
+	"hasNrm" : false,
+	"hasMesh" : false
+}

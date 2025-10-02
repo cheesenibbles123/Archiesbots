@@ -2,3 +2,11 @@
 # Ignore images
 *.png
 *.jpg
+*.obj
+highlightjs/*
+.htaccess
+favicon.ico
+playerList*.json
+
+# this file is just too bad to publicly show...
+archive/oliverbot/commandusagefrequency.php
